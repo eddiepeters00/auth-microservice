@@ -1,5 +1,42 @@
-export default function createPost({ get }) {
+export default function createPost({
+  makeInputObj,
+  findDocuments,
+  insertDocument,
+  get,
+}) {
   return Object.freeze({ post });
 
-  async function post({}) {}
+  async function post({ params, dbConfig, errorMsgs }) {
+    try {
+      let user;
+      console.log("[POST][USE-CASE] Inserting object process - START!");
+      const userFactory = makeInputObj({ params });
+
+      user = {
+        username: userFactory.username(),
+        password: userFactory.password(),
+        email: userFactory.email(),
+        role: userFactory.role(),
+        usernameHash: userFactory.usernameHash(),
+        emailHash: userFactory.emailHash(),
+        usernamePasswordHash: userFactory.usernamePasswordHash(),
+        created: userFactory.created(),
+        modified: userFactory.modified(),
+      };
+
+      // 'or' query
+      let query = { $or: [{ username: user.username }, { email: user.email }] };
+      const checkDuplicate = await findDocuments({ query, dbConfig });
+      if (checkDuplicate.length) throw new Error(errorMsgs.EXISTING_USER);
+
+      await insertDocument({ document: user, dbConfig });
+      console.log("[POST][USE-CASE] Inserting object process - DONE!");
+
+      const inserted = get({ params: { username: user.username } });
+
+      return inserted;
+    } catch (err) {
+      throw err.message;
+    }
+  }
 }
