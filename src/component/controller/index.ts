@@ -1,34 +1,23 @@
-import { post, get, auth } from "../use-case";
+import { post, get } from "../use-case";
 const baseUrl = "/api/v1/user";
 
-const getUsersEP = async (req, res) => {
+const getEP = async (req, res) => {
   try {
     const results = await get({ params: req.params });
     res.json({ err: 0, data: results });
   } catch (err) {
-    console.error(`[EP][GET] ${req.method}: ${err}`);
+    console.log(`[EP][GET] ${req.method}: ${err}`);
     res.status(403);
     res.json({ err: 1, data: { err } });
   }
 };
 
-const registerUserEP = async (req, res) => {
+const postEP = async (req, res) => {
   try {
     let results = await post({ params: req.body });
     res.json({ err: 0, data: results });
   } catch (err) {
-    console.error(`[EP][POST] ${req.method}: ${err.message}`);
-    res.status(403);
-    res.json({ err: 1, data: err.message });
-  }
-};
-
-const authUserEP = async (req, res) => {
-  try {
-    let results = await auth({ params: req.body });
-    res.json({ err: 0, data: results });
-  } catch (err) {
-    console.error(`[EP][POST] ${req.method}: ${err.message}`);
+    console.log(`[EP][POST] ${req.method}: ${err.message}`);
     res.status(403);
     res.json({ err: 1, data: err.message });
   }
@@ -36,12 +25,11 @@ const authUserEP = async (req, res) => {
 
 const routes = [
   {
-    path: `${baseUrl}/username/:username?/email/:email?`,
+    path: `${baseUrl}/user/:username?/email/:email?`,
     method: "get",
-    component: getUsersEP,
+    component: getEP,
   },
-  { path: `${baseUrl}/`, method: "post", component: registerUserEP },
-  { path: `${baseUrl}/auth`, method: "post", component: authUserEP },
+  { path: `${baseUrl}/`, method: "post", component: postEP },
 ];
 
 export { routes };
