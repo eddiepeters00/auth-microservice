@@ -1,11 +1,11 @@
 import {
-  insertOneDocument as makeInsertDocument,
+  insertOneDocument,
   updateDocument as makeUpdateDocument,
   findDocuments as makeFindDocuments,
 } from "../../libs/mongoDb";
 
 const insertDocument = ({ document, dbConfig }) =>
-  makeInsertDocument({ document, ...dbConfig });
+  insertOneDocument({ document, ...dbConfig });
 
 const updateDocument = ({ query, values, dbConfig }) =>
   makeUpdateDocument({ query, values, ...dbConfig });
