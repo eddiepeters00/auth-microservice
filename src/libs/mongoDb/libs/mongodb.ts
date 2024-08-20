@@ -1,3 +1,5 @@
+import { logger } from "../../logger";
+
 export default function makeDB({ dbClient }) {
   return Object.freeze({
     insertOneDocument,
@@ -7,13 +9,6 @@ export default function makeDB({ dbClient }) {
   });
 
   async function insertOneDocument({ document, dbName, dbUri, dbColl }) {
-    logger.info(
-      "[LIBS/MONGODB] INSERT ONE DOCUMENT: ",
-      document,
-      dbName,
-      dbUri,
-      dbColl
-    );
     const db = new dbClient({ dbName, dbUri, dbColl });
     const results = await db.insertDocument({ document });
 
@@ -29,9 +24,7 @@ export default function makeDB({ dbClient }) {
 
   async function findDocuments({ query, dbName, dbUri, dbColl }) {
     const db = new dbClient({ dbName, dbUri, dbColl });
-    logger.info("FIND DOCUMENTS", db);
     const results = await db.findDocumentsByQuery({ query });
-    logger.info("FIND DOCUMENTS", results);
     return results;
   }
 
