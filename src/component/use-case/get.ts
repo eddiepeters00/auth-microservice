@@ -12,7 +12,6 @@ export default function createGet({
       (key) => params[key] === undefined && delete params[key]
     );
 
-    console.log(params);
     const passwordUsernameHash = params.userNamePasswordHash;
 
     if (Object.values(params).length) {
@@ -35,7 +34,6 @@ export default function createGet({
     const dbResults = await findDocuments({ query: params, dbConfig });
 
     //Validate password
-    console.log("DB-results", dbResults);
     if (dbResults[0].usernamePasswordHash !== passwordUsernameHash)
       throw new Error("Invalid password");
 
