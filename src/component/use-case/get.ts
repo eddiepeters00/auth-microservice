@@ -34,8 +34,9 @@ export default function createGet({
     const dbResults = await findDocuments({ query: params, dbConfig });
 
     //Validate password
-    if (dbResults[0].usernamePasswordHash !== passwordUsernameHash)
+    if (dbResults[0].usernamePasswordHash !== passwordUsernameHash) {
       throw new Error("Invalid password");
+    }
 
     const results = dbResults.map((post) => {
       const resultsObj = makeOutputObj({ params: post });

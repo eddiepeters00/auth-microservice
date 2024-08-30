@@ -43,6 +43,7 @@ const routes = [
   },
   { path: `${baseUrl}/`, method: "post", component: registerUserEP },
   { path: `${baseUrl}/auth`, method: "post", component: authUserEP },
+  { path: `${baseUrl}/user`, method: "get", component: getUsersEP },
 ];
 
 export { routes };

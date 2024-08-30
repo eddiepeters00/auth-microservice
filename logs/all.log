@@ -94,3 +94,502 @@
 {"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3001/","timestamp":"2024-08-20 15:48:19"}
 {"level":"info","message":"[AUTH_MS] Bootstrapping micro service","timestamp":"2024-08-20 15:48:26"}
 {"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3001/","timestamp":"2024-08-20 15:48:26"}
+{"level":"info","message":"[AUTH_MS] Bootstrapping micro service","timestamp":"2024-08-21 14:04:09"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3001/","timestamp":"2024-08-21 14:04:09"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user:POST","timestamp":"2024-08-21 14:05:53"}
+{"level":"info","message":"[POST][USE-CASE] Inserting object process - START!","timestamp":"2024-08-21 14:05:53"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-21 14:05:53"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-21 14:05:53"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-21 14:05:53"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-21 14:05:53"}
+{"level":"error","message":"[EP][POST] POST: user already exists","timestamp":"2024-08-21 14:05:53"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-21 14:07:39"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-21 14:07:39"}
+{"level":"error","message":"[EP][POST] POST: missing parameter: username","timestamp":"2024-08-21 14:07:39"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-21 14:08:36"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-21 14:08:36"}
+{"level":"error","message":"[EP][POST] POST: missing parameter: username","timestamp":"2024-08-21 14:08:36"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-21 14:15:13"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-21 14:15:13"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-21 14:15:13"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-21 14:15:13"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-21 14:15:13"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-21 14:15:13"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-21 14:15:13"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-21 14:15:13"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-21 14:15:13"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-21 14:15:14"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-21 14:15:14"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-21 14:15:14"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-21 14:20:14"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-21 14:20:14"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-21 14:20:14"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-21 14:20:15"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-21 14:20:15"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-21 14:20:15"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-21 14:20:15"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-21 14:20:15"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-21 14:20:15"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-21 14:20:16"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-21 14:20:16"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-21 14:20:16"}
+{"level":"info","message":"[AUTH_MS] Bootstrapping micro service","timestamp":"2024-08-21 14:21:14"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3001/","timestamp":"2024-08-21 14:21:14"}
+{"level":"info","message":"[AUTH_MS] Bootstrapping micro service","timestamp":"2024-08-30 14:25:57"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3001/","timestamp":"2024-08-30 14:25:57"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 14:27:25"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 14:27:25"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 14:27:25"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 14:27:27"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 14:27:27"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 14:27:27"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 14:27:27"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 14:27:27"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 14:27:27"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 14:27:27"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 14:27:27"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 14:27:27"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 15:20:15"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 15:20:15"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 15:20:15"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 15:20:17"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 15:20:17"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 15:20:17"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 15:20:17"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:20:17"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 15:20:17"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 15:20:18"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 15:20:18"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 15:20:18"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:05:31"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:05:31"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:05:31"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:05:34"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:05:34"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:05:34"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:05:34"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:05:34"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:05:34"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:05:35"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:05:35"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:05:35"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:07:23"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:07:23"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:07:23"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:07:24"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:07:24"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:07:25"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:07:25"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:07:25"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:07:25"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:07:25"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:07:25"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:07:25"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:08:16"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:08:16"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:08:16"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:08:17"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:08:17"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:08:17"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:08:17"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:08:17"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:08:17"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:08:17"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:08:17"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:08:17"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:09:22"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:09:22"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:09:22"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:09:23"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:09:24"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:09:24"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:09:24"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:09:24"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:09:24"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:09:24"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:09:25"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:09:25"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:19:08"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:19:08"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:19:08"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:19:09"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:19:09"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:19:09"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:19:09"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:19:09"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:19:09"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:19:10"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:19:10"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:19:10"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:26:10"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:26:10"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:26:10"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:26:11"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:26:11"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:26:11"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:26:11"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:26:11"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:26:11"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:26:12"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:26:12"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:26:12"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:26:31"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:26:31"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:26:31"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:26:31"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:26:31"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:26:31"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:26:31"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:26:31"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:26:31"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:26:32"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:26:32"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:26:32"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:27:57"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:27:57"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:27:57"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:27:59"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:27:59"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:27:59"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:27:59"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:27:59"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:27:59"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:29:16"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:29:16"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:29:16"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:29:16"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:29:16"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:29:16"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:29:16"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:29:16"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:29:16"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:29:17"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:29:17"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:29:17"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user:POST","timestamp":"2024-08-30 16:33:27"}
+{"level":"info","message":"[POST][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:33:27"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:33:27"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:33:27"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:33:27"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:33:27"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:33:28"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:33:28"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:33:28"}
+{"level":"info","message":"[POST][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:33:28"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:33:28"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:33:28"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:33:28"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:33:28"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:33:28"}
+{"level":"error","message":"[EP][POST] POST: Invalid password","timestamp":"2024-08-30 16:33:28"}
+{"level":"info","message":"[AUTH_MS] Bootstrapping micro service","timestamp":"2024-08-30 16:37:50"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3001/","timestamp":"2024-08-30 16:37:50"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user:POST","timestamp":"2024-08-30 16:37:57"}
+{"level":"info","message":"[POST][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:37:57"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:37:57"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:37:59"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:37:59"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:37:59"}
+{"level":"error","message":"[EP][POST] POST: user already exists","timestamp":"2024-08-30 16:37:59"}
+{"level":"info","message":"[AUTH_MS] Bootstrapping micro service","timestamp":"2024-08-30 16:38:09"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3001/","timestamp":"2024-08-30 16:38:09"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:38:27"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:38:27"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:38:27"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:38:28"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:38:28"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:38:28"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:38:28"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:38:28"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:38:28"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:38:29"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:38:29"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:38:29"}
+{"level":"info","message":"[AUTH_MS] Bootstrapping micro service","timestamp":"2024-08-30 16:38:59"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3001/","timestamp":"2024-08-30 16:38:59"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:47:02"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:47:02"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:47:02"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:47:04"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:47:04"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:47:04"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:47:04"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:47:04"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:47:04"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:47:05"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:47:05"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:47:05"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 16:54:35"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 16:54:35"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:54:35"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:54:36"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:54:37"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:54:37"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - DONE!","timestamp":"2024-08-30 16:54:37"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 16:54:37"}
+{"level":"info","message":"FIND DOCUMENTS BY QUERY...","timestamp":"2024-08-30 16:54:37"}
+{"level":"info","message":"[MONGODB] Connection successfull.","timestamp":"2024-08-30 16:54:37"}
+{"level":"info","message":"[MONGODB] Closing connection...","timestamp":"2024-08-30 16:54:37"}
+{"level":"info","message":"[MONGODB] Connection closed...","timestamp":"2024-08-30 16:54:37"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/user/auth:POST","timestamp":"2024-08-30 17:00:30"}
+{"level":"info","message":"[Auth][USE-CASE] Inserting object process - START!","timestamp":"2024-08-30 17:00:30"}
+{"level":"error","message":"[EP][POST] POST: missing parameter: username","timestamp":"2024-08-30 17:00:30"}
+{"level":"info","message":"[AUTH_MS] Bootstrapping micro service","timestamp":"2024-08-30 17:07:12"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3001/","timestamp":"2024-08-30 17:07:12"}
+{"level":"info","message":"[AUTH_MS] Bootstrapping micro service","timestamp":"2024-08-30 17:07:44"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3001/","timestamp":"2024-08-30 17:07:44"}

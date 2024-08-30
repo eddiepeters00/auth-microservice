@@ -59,3 +59,9 @@
 {"level":"error","message":"[EP][POST] POST: Invalid database name: '/users'","timestamp":"2024-08-20 15:36:38"}
 {"level":"error","message":"[EP][POST] POST: Invalid database name: '/users'","timestamp":"2024-08-20 15:39:31"}
 {"level":"error","message":"[EP][POST] POST: Invalid password","timestamp":"2024-08-20 15:43:51"}
+{"level":"error","message":"[EP][POST] POST: user already exists","timestamp":"2024-08-21 14:05:53"}
+{"level":"error","message":"[EP][POST] POST: missing parameter: username","timestamp":"2024-08-21 14:07:39"}
+{"level":"error","message":"[EP][POST] POST: missing parameter: username","timestamp":"2024-08-21 14:08:36"}
+{"level":"error","message":"[EP][POST] POST: Invalid password","timestamp":"2024-08-30 16:33:28"}
+{"level":"error","message":"[EP][POST] POST: user already exists","timestamp":"2024-08-30 16:37:59"}
+{"level":"error","message":"[EP][POST] POST: missing parameter: username","timestamp":"2024-08-30 17:00:30"}
